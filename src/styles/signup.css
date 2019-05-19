@@ -1,0 +1,29 @@
+.form{
+    display: grid;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    grid-column-start: 4;
+    grid-column-end:8;
+    
+}
+
+.lbl{
+    text-align: center;
+    font-size: 25px;
+    margin-right: 20px;
+    color:  #7EA0B7;
+}
+
+.signBtn{
+    grid-column-start: 4;
+    grid-column-end:5;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
